@@ -1,0 +1,28 @@
+/* Primary Color:
+#003366 (Deep Blue)
+
+Secondary Colors:
+#FFFFFF (White)
+#F5F5F5 (Light Gray)
+#FFCC00 (Golden Yellow)
+
+Accent Colors:
+#FF6600 (Orange)
+#009933 (Green)
+#CC0000 (Red) */
+.text_center {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer_wrapper {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(154, 154, 154);
+  margin-top: 50px;
+}

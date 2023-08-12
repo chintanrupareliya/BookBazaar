@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import authService from "../../service/auth.service";
 import * as Yup from "yup";
 import ShowError from "../../components/ShowError";
+import { RoutePaths } from "../../utils/enum";
 const initialValues = {
   email: "",
   password: "",
@@ -104,7 +105,10 @@ const Login = () => {
               style={{ textAlign: "center" }}
             >
               Don't have an account{" "}
-              <Link to="/" style={{ textDecoration: "none", color: "red" }}>
+              <Link
+                to={RoutePaths.Register}
+                style={{ textDecoration: "none", color: "red" }}
+              >
                 Register
               </Link>
             </div>

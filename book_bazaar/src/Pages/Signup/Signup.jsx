@@ -15,7 +15,7 @@ import styles from "./Signup.module.css";
 import ShowError from "../../components/ShowError";
 import authService from "../../service/auth.service";
 import { useNavigate } from "react-router-dom";
-
+import { RoutePaths } from "../../utils/enum";
 const initialValues = {
   firstName: "",
   lastName: "",
@@ -208,7 +208,7 @@ const Signup = () => {
               <div className="">
                 Already have an account{" "}
                 <Link
-                  to="/login"
+                  to={RoutePaths.Login}
                   style={{ color: "red", textDecoration: "none" }}
                 >
                   Log in
