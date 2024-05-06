@@ -18,6 +18,7 @@ const Footer = () => {
                       height: "50px",
                       width: "200px",
                     }}
+                    A
                   />
                 </Link>
               </div>
