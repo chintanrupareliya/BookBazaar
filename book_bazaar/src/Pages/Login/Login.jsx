@@ -7,7 +7,7 @@ import { useFormik } from "formik";
 import { Link } from "react-router-dom";
 import authService from "../../service/auth.service";
 import * as Yup from "yup";
-import ShowError from "../../components/ShowError";
+import ShowError from "../../components/showerror/ShowError";
 import { RoutePaths } from "../../utils/enum";
 const initialValues = {
   email: "",

@@ -54,3 +54,11 @@ Accent Colors:
 .site_header {
   background-color: #343a40;
 }
+.header_search_inner {
+  display: flex;
+}
+.header_search_outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

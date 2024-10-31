@@ -12,7 +12,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import { toast } from "react-toastify";
 import styles from "./Signup.module.css";
-import ShowError from "../../components/ShowError";
+import ShowError from "../../components/showerror/ShowError";
 import authService from "../../service/auth.service";
 import { useNavigate } from "react-router-dom";
 import { RoutePaths } from "../../utils/enum";
